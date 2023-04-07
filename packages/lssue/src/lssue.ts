@@ -1,3 +1,4 @@
+import { EVENTS } from './constants';
 import { processOpts } from './helper';
 import { LssueOptions } from './types';
 import EventEmitter from './utils/events';
@@ -26,6 +27,7 @@ export default class Lssue extends EventEmitter {
     el.appendChild(this.el);
     this.container = el;
     this.isMounted = true;
+    this.emit(EVENTS.MOUNT);
 
     return true;
   }
