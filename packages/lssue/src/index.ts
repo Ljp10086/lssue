@@ -1,3 +1,3 @@
 import './styles/index.scss';
 
-export * from './lssue';
+export * as Lssue from './lssue';

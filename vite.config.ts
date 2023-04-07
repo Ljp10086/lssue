@@ -10,10 +10,6 @@ export default defineConfig(({ command, mode }) => {
 
   return {
     root: dir,
-    preview: {
-      host: 'study-manager.local.3dlink.cn',
-      https: true
-    },
     resolve: {
       alias: [
         {
