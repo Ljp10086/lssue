@@ -7,4 +7,6 @@ export default class Lssue {
   constructor(opts: LssueOptions) {
     this.opts = processOpts(opts);
   }
+
+  // mount() {}
 }
